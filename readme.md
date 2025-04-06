@@ -27,8 +27,21 @@ The application simulates communication between stations with the following feat
 ### Compilation
 Compile the project using:
 
+```bash
+g++ Sesion0.cpp estacion.cpp enviar.cpp recibir.cpp -o Sesion0 -L. -llinkLayer
+```
+
+Alternatively, you can use the provided shell script:
+```bash
+./FRC_enlace.sh
+```
+
 ### Execution
 Run the application with:
+```bash
+./Sesion0
+```
+
 
 ## Usage
 When started, the application asks to choose a mode:
